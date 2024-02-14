@@ -1,0 +1,205 @@
+html {
+  font-size: 62.5%;
+}
+
+.hero-background {
+  background-image: url("img/hero-background-image.jpg");
+  background-size: 100vh;
+}
+
+.lead {
+  text-align: center;
+  font-family: "inter";
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.heading-one {
+  color: rgb(48, 63, 87) !important;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "inter";
+  font-weight: 600;
+}
+
+.down-arrow {
+  text-align: center;
+}
+
+.down-arrow > img {
+  height: 4rem;
+  background-color: rgba(192, 192, 192, 0.253);
+  border-radius: 5rem;
+  padding: 0.5rem;
+}
+
+.down-arrow > img:hover {
+  height: 4.5rem;
+  background-color: rgba(112, 110, 110, 0.253);
+  border-radius: 5rem;
+  padding: 0.5rem;
+  transition: all 0.3s;
+}
+
+/* COURSE SECTION ================================================================= */
+
+.card {
+  border: 2px solid #a8a8a8;
+  border-radius: 2rem;
+  overflow: hidden;
+  text-align: justify;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.card h5 {
+  line-height: 1;
+  padding: 1rem;
+  text-align: justify;
+}
+
+.card ul {
+  text-align: left;
+}
+
+.flex-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.courses-title {
+  background-color: rgba(176, 186, 202, 0.575);
+  display: inline-block;
+  border: 2px solid #a8a8a8;
+  border-radius: 10px;
+  padding: 0.5rem 1.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "inter";
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.title-border {
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.btn-bottom {
+  margin-top: auto;
+}
+
+/* =========================================== */
+
+.lead {
+  text-align: justify;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.featurette-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(48, 63, 87);
+}
+
+.experience {
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.center-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-img {
+  max-width: 53rem;
+  max-height: 35rem;
+}
+
+.tasks-list {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.tasks-list button {
+  margin: 0.5rem;
+}
+
+.block {
+  display: block !important;
+  background-color: azure;
+  padding: 1rem;
+}
+
+#dasaja,
+#aksal {
+  display: none;
+}
+
+/* ==================================================== */
+/* CONTACT ME */
+
+.difference {
+  font-weight: 600;
+  font-size: 2rem;
+  color: rgb(48, 63, 87);
+}
+
+.paragraph-blue {
+  color: rgb(62, 80, 110);
+  font-weight: 500;
+}
+
+.header-blue {
+  color: rgb(48, 63, 87);
+}
+
+.contactme {
+  color: #fff;
+  font-size: 1.6rem;
+  text-transform: none;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  align-items: center;
+}
+
+.phone,
+.mail,
+.linkedin {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.container-contact a {
+  background-color: rgba(176, 186, 202, 0.575);
+  font-size: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
